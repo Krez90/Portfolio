@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.nav-link{
+  color: blueviolet;
+}
+
+svg {
+	position:absolute;
+	left:0;
+	right:0;
+	top:15%;
+	margin:auto;
+}
+
+#B, #H, #P, #cercle {
+  stroke-dasharray: 1400;
+  stroke-dashoffset: 1500;
+  animation: dash 4s linear infinite alternate-reverse;
+ }
+    
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1500;
+  }
+  to {
+    stroke-dashoffset: 0;
+    }
+}

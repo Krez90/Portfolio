@@ -1,0 +1,82 @@
+.navbar{
+    background-color: black;
+}
+.section1{
+    background-color: black;
+    margin-top: 50px;
+ }
+
+.presentation{
+    padding: 2em;
+    color: white;
+    text-align: center;
+}
+.parcours{
+    color: black;
+    text-align: center;
+    padding: 2em;
+}
+.section3{
+    background-color: black;
+}
+.creation{
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+.contact{
+    padding: 2em;
+}
+.adresse{
+    margin-top: 7%;
+}
+/*FORMULAIRE*/
+
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 90px;
+    margin-bottom: 0;
+    margin-top: 1%;
+  }
+  
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+    font-weight:bold;
+
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 70%;
+    height: 25px;
+    box-sizing: border-box;
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid black;
+  }
+ #message{
+height: 100px;
+  }
+
+  .form
+  {
+      color:black;
+      font-family: 'Orbitron', sans-serif;
+      font-weight:bold;
+      font-size: 13px;
+  }
+  #bouton_envoi{
+      margin-top: 5%;
+      width: 120px;
+      background-color: black;
+      color:white;
+  }
+  /*FIN FORMULAIRE*/
+
+  .footer{
+      background-color: black;
+      color: white;
+  }
