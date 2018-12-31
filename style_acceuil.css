@@ -1,8 +1,23 @@
-.navbar{
-    background-color: black;
+h1, h3{
+    font-family: 'Playfair Display SC', serif;
+
 }
+p{
+    font-family: 'Arsenal', sans-serif;
+
+}
+
+    @font-face {
+        font-family: 'sofia_regular', "sans-serif";
+        src: url('sofia_regular.otf')
+}
+
+.navbar{
+    background-color: #0c0c0d;
+}
+
 .section1{
-    background-color: black;
+    background-color: #0c0c0d;
     margin-top: 50px;
  }
 
@@ -12,12 +27,12 @@
     text-align: center;
 }
 .parcours{
-    color: black;
+    color: #0c0c0d;
     text-align: center;
     padding: 2em;
 }
 .section3{
-    background-color: black;
+    background-color: #0c0c0d;
 }
 .creation{
     color: white;
@@ -55,7 +70,7 @@
     height: 25px;
     box-sizing: border-box;
     /* Pour harmoniser le look & feel des bordures des champs texte */
-    border: 1px solid black;
+    border: 1px solid #0c0c0d;
   }
  #message{
 height: 100px;
@@ -63,7 +78,7 @@ height: 100px;
 
   .form
   {
-      color:black;
+      color:#0c0c0d;
       font-family: 'Orbitron', sans-serif;
       font-weight:bold;
       font-size: 13px;
@@ -71,12 +86,22 @@ height: 100px;
   #bouton_envoi{
       margin-top: 5%;
       width: 120px;
-      background-color: black;
+      background-color: #0c0c0d;
       color:white;
   }
   /*FIN FORMULAIRE*/
+.logo_reseaux{
+height: 100px;
+width: 100px;
+padding: 1em;
+}
+.reseaux{
+padding: 2em;
+text-align: center;
+}
 
-  .footer{
-      background-color: black;
-      color: white;
-  }
+.logo{
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
