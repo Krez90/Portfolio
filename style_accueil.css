@@ -91,6 +91,10 @@ p{
  #message{
 height: 100px;
   }
+  
+  .texte_carre{
+    resize: none;
+  }
 
   .form
   {
