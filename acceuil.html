@@ -7,8 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display+SC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500|Quicksand:500" rel="stylesheet">
 
     <title>Bilel Hamimed | Développeur Web Junior</title>
 
@@ -28,32 +27,25 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+            <ul class="navbar-nav">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Acceuil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Parcours</a>
+                    <a class="nav-link" href="#parcours">Parcours</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Création</a>
+                    <a class="nav-link" href="#creation">Création</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                <li class="nav-item dropdown">
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+        </div>
                 </li>
             </ul>
-        </div>
     </nav>
-
     <section class="section1">
-        <div class="presentation">
+        <div id="presentation">
             <div class="row">
                 <div class="col-md-12">
                     <h1>PRÉSENTATION.</h1></br>
@@ -70,7 +62,7 @@
         </div>
     </section>
     <section class="section2">
-        <div class="parcours">
+        <div id="parcours">
             <div class="row">
                 <div class="col-md-12">
                     <h1>PARCOURS.</h1></br>
@@ -79,9 +71,9 @@
                     <p>2018 – 2019 | ÉTUDIANT | ACCESS CODE SCHOOL</br>
                         Formation intensive en développement web. Apprentissage du développement Front-End</br>
                         et Back-end : HTML, CSS, JavaScript, PHP et SQL. Pratique de Git/Github sur tous les projets.</br></br>
-                        2016 – 2017| AGENT DE PRODUCTION| ADAPEI</br>
+                        2016 – 2017 | AGENT DE PRODUCTION | ADAPEI</br>
                         Soudure pièce automobile, contrôle et vérification qualité.</br></br>
-                        2014 – 2016| GÉRANT FONDATEUR | STEAMWASH</br>
+                        2014 – 2016 | GÉRANT FONDATEUR | STEAMWASH</br>
                         Gérant de la société crée en 2014. Nettoyage, rénovation automobile. Création du site internet
                         SteamWash (Template Wix). Création de la publicité (Marquage véhicule, flyers, carte de
                         visite).</br>
@@ -102,7 +94,7 @@
         </div>
     </section>
     <section class="section3">
-        <div class="creation">
+        <div id="creation">
             <div class="row">
                 <div class="col-md-12">
                     <h1>CRÉATION.</h1>
@@ -144,21 +136,21 @@
         </div>
 
     </section class="section4">
-    <div class="contact">
+    <div id="contact">
         <div class="row">
             <div class="col-md-6">
                 <h3>CONTACT</h3>
                 <form method="post" action="" class="form">
 
-                    <label for='nom'>Nom </label></br>
+                    <label for='nom'>Nom</label></br>
                     <input type='text' name='nom' id='nom' maxlength='20'>
                     <span id='missNom'></span><br>
 
-                    <label for='mail'>Email </label></br>
+                    <label for='mail'>Email</label></br>
                     <input type='text' name='mail' id='mail' required>
                     <span id="missMail"></span><br>
 
-                    <label for='message'>Message </label></br>
+                    <label for='message'>Message</label></br>
                     <input type='textera' name='message' id='message' required>
                     <span id="missmess"></span><br>
 
