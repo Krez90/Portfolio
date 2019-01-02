@@ -27,7 +27,7 @@ p{
 /*CONTENU BOOSTRAPP*/
 .section1{
     background-color: #0c0c0d;
-    margin-top: 50px;
+    margin-top: 75px;
  }
 
 #presentation{
@@ -46,6 +46,12 @@ p{
 #creation{
     color: white;
     text-align: center;
+    padding: 2em;
+}
+
+.capture{
+    width: 250px;
+    height: 250px;
     padding: 2em;
 }
 #contact{
@@ -142,10 +148,34 @@ h1:after {
 	height: 1px;
 	width: 0;
 	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
+	transition: width .6s ease, background-color .6s ease;
 }
 h1:hover:after {
 	width: 90%;
+	background: #444;
+}
+
+
+.titre{min-width:50px;}
+.titre {
+    text-decoration:none;
+    line-height: 35px;
+    padding: 0 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.titre:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0;
+	background: transparent;
+	transition: width .6s ease, background-color .6s ease;
+}
+.titre:hover:after {
+	width: 40%;
 	background: #444;
 }
 /* FIN EFFET*/
