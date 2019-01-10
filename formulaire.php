@@ -7,5 +7,7 @@ if($recupNom != "" && $recupEmail != ""){
     echo "Votre message a bien été envoyer";
 }
 else{
-    echo "Certain champ son vide";
+    echo "Certains champs sont vide";
 }
+var_dump($_POST);
+
