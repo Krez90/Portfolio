@@ -1,12 +1,22 @@
-body {
+
+#body {
+  overflow: hidden;
   background-color: black;
+  
+  
+  /*margin-left: 25%;*/
 }
+
+#taille_logo{
+  width: 400px;
+  margin:auto;
+  margin-top: 25%;
+
+}
+
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
-}
-.nav-link{
-  color: blueviolet;
 }
 
 svg {
@@ -14,7 +24,7 @@ svg {
 	left:0;
 	right:0;
 	top:15%;
-	margin:auto;
+
 }
 
 #B, #H, #P, #cercle {
