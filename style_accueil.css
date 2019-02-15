@@ -41,6 +41,7 @@ h1,h2,h3,h4,h5,h6 {
       font-weight: 300;
       line-height: 26px;
       letter-spacing: 0.2px;
+      font-family: 'Work Sans', sans-serif;
   }
 
 .img-responsive{
@@ -52,52 +53,12 @@ h1,h2,h3,h4,h5,h6 {
     General               
 -----------------------------------------*/
 
-html{
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
-  color: #4d638c;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  text-decoration: none !important;
-}
-a:hover, a:active, a:focus {
-  color: #4d638c;
-  outline: none;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
+#presentation,
 #portfolio,
-#about,
+#parcours,
 #contact {
   padding-top: 80px;
   padding-bottom: 120px;
-}
-
-.section-title {
-  position: relative;
-  padding-bottom: 62px;
-  text-align: center;
-}
-
-.section-title h3 {
-  color: #555;
-  font-weight: 400;
-  letter-spacing: 4px;
 }
 
 /*---------------------------------------
@@ -160,7 +121,9 @@ a:hover, a:active, a:focus {
 /**********************************************MENU NAVIGATION****************************/
 .navbar{
     /* background-color: #0c0c0d; */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     background-color: #101010;
     
 }
@@ -191,23 +154,6 @@ a:hover, a:active, a:focus {
   margin-top: 32px;
 }
 
-/*************************************** SECTION 2 ************************************/
-.section2{
-    height: 100%;
-    width: 100%;
-}
-#parcours{
-    
-    padding: 2em;
-    padding-top: 75px;
-}
-
-#div_parcours{
-    text-align: center;
-}
-.titre_parcours{
-    color: #101010;
-}
 
 /*---------------------------------------
    Portfolio section              
@@ -260,25 +206,11 @@ a:hover, a:active, a:focus {
   }
 
   /***************************************************FOOTER*****************************/
-.logo_reseaux{
-height: 100px;
-width: 100px;
-padding: 1em;
-}
-
-#reseaux{
-padding: 2em;
-text-align: center;
-}
-
 .text_footer{
     text-align: center;
     color: #a4a4a4;
-    padding: 2em;
     margin-top: 3%;
 }
-
-
 /***************************************************** FIN FOOTER********************************/
 
 /******************************************** EFFET SOULIGNEMENT**********************************/
@@ -361,8 +293,46 @@ h1:hover:after {
   color: #ffffff;
   font-weight: 400;
   transition: all 0.4s ease-in-out;
+  
 }
 
 #contact input[type="submit"]:hover {
   background: #000;
+}
+
+.form-control{
+  font-family: 'Work Sans', sans-serif;
+}
+
+ /*---------------------------------------
+   Social icon             
+-----------------------------------------*/
+
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+
+.social-icon li a {
+  color: #777;
+  cursor: pointer;
+  font-size: 45px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 22px 12px 10px 12px;
+}
+
+.social-icon li a:hover {
+  color: #000;
+  transform: scale(1.1);
 }

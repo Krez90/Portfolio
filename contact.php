@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display+SC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:500|Quicksand:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     
     <title>Bilel Hamimed | Développeur Web Junior</title>
 
@@ -20,11 +20,11 @@
 
 <body>
     <!-------------------------------------------PRELOADER---------------------------------------->
-<div class="preloader">
+<!---<div class="preloader">
      <div class="sk-spinner sk-spinner-wordpress">
           <span class="sk-inner-circle"></span>
      </div>
-</div>
+</div>-->
 
 <!--------------------------------------------------MENU NAV--------------------------------->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -56,7 +56,7 @@
           <div class="row">
                <div class="col-md-offset-1 col-md-10 col-sm-12">
                     <div class="section-title">
-                         <h1>CONTACT.</h1>
+                         <h1>CONTACT</h1>
                     </div>
                     <form action="formulaire.php" method="post">
                          <div class="col-md-6 col-sm-6">
@@ -80,15 +80,11 @@
         <div id="reseaux" class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="https://www.linkedin.com/in/bilel-hamimed/">
-                        <img src="images/social-linkedin-circular-button.png" alt="" class="logo_reseaux">
-                    </a>
-                    <a href="https://github.com/Krez90">
-                        <img src="images/github2.png" alt="" class="logo_reseaux">
-                    </a>
-                    <a href="cv_bilel_hamimed.pdf">
-                        <img src="images/CV.png" alt="" class="logo_reseaux">
-                    </a>
+                    <ul class="social-icon">
+                            <li><a href="https://github.com/Krez90" class="fa fa-github-alt"></a></li>
+                            <li><a href="https://www.linkedin.com/in/bilel-hamimed/" class="fa fa-linkedin"></a></li>
+                            <li><a href="cv_bilel_hamimed.pdf" class="fa fa-download"></a></li>
+                        </ul>
                 </div>
             </div>
             <div class="text_footer">

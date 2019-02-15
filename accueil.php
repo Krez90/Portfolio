@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display+SC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:500|Quicksand:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     
     <title>Bilel Hamimed | Développeur Web Junior</title>
 
@@ -21,11 +21,11 @@
 <body>
 
 <!-------------------------------------------PRELOADER---------------------------------------->
-<div class="preloader">
+<!-----<div class="preloader">
      <div class="sk-spinner sk-spinner-wordpress">
           <span class="sk-inner-circle"></span>
      </div>
-</div>
+</div>-->
 
 <!--------------------------------------------------MENU NAV--------------------------------->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -54,7 +54,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h1>PRÉSENTATION.</h1><br>
+                        <h1>PRÉSENTATION</h1><br>
                             <p>Après plusieurs années à travailler dans différents domaines,<br> j'ai décidé de me
                             reconvertir dans
                             le
@@ -74,10 +74,10 @@
                <div class="col-md-4 col-sm-6">
                     <a href="single-project.html">
                          <div class="portfolio-thumb">
-                              <img src="images/portfolio-img1.jpg" class="img-responsive" alt="Portfolio">
+                              <img src="images/Christmas.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
-                                             <h3>Project Name</h3>
+                                             <h3>Mery Christmas</h3>
                                              <small>Brand Identity</small>
                                         </div>
                                    </div>
@@ -88,10 +88,10 @@
                <div class="col-md-4 col-sm-6">
                     <a href="single-project.html">
                          <div class="portfolio-thumb">
-                              <img src="images/portfolio-img2.jpg" class="img-responsive" alt="Portfolio">
+                              <img src="images/pharma.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
-                                             <h3>Project Name</h3>
+                                             <h3>Pharma net</h3>
                                              <small>Web Development</small>
                                         </div>
                                    </div>
@@ -102,10 +102,10 @@
                <div class="col-md-4 col-sm-6">
                     <a href="single-project.html">
                          <div class="portfolio-thumb">
-                              <img src="images/portfolio-img3.jpg" class="img-responsive" alt="Portfolio">
+                              <img src="images/uploit.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
-                                             <h3>Project Name</h3>
+                                             <h3>Uploadit</h3>
                                              <small>Mobile App</small>
                                         </div>
                                    </div>
@@ -116,7 +116,7 @@
                <div class="col-md-4 col-sm-6">
                     <a href="single-project.html">
                          <div class="portfolio-thumb">
-                              <img src="images/portfolio-img4.jpg" class="img-responsive" alt="Portfolio">
+                              <img src="images/space.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
                                              <h3>Project Name</h3>
@@ -144,10 +144,10 @@
                <div class="col-md-4 col-sm-6">
                     <a href="single-project.html">
                          <div class="portfolio-thumb">
-                              <img src="images/portfolio-img6.jpg" class="img-responsive" alt="Portfolio">
+                              <img src="images/memes.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
-                                             <h3>Project Name</h3>
+                                             <h3>Générateur Meme</h3>
                                              <small>Fyler Design</small>
                                         </div>
                                    </div>
@@ -162,16 +162,12 @@
         <div id="reseaux" class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="https://www.linkedin.com/in/bilel-hamimed/">
-                        <img src="images/social-linkedin-circular-button.png" alt="" class="logo_reseaux">
-                    </a>
-                    <a href="https://github.com/Krez90">
-                        <img src="images/github2.png" alt="" class="logo_reseaux">
-                    </a>
-                    <a href="cv_bilel_hamimed.pdf">
-                        <img src="images/CV.png" alt="" class="logo_reseaux">
-                    </a>
-                </div>
+                    <ul class="social-icon">
+                         <li><a href="https://github.com/Krez90" class="fa fa-github-alt"></a></li>
+                         <li><a href="https://www.linkedin.com/in/bilel-hamimed/" class="fa fa-linkedin"></a></li>
+                         <li><a href="cv_bilel_hamimed.pdf" class="fa fa-download"></a></li>
+                    </ul>
+               </div>
             </div>
             <div class="text_footer">
                 <div class="row">
@@ -184,13 +180,12 @@
         </div>
     </footer>
 
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/custom.js"></script>
+    <!--<script src="js/jquery.js"></script>
+    <script src="js/custom.js"></script>-->
 </body>
 
 </html>
