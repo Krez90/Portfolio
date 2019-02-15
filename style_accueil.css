@@ -154,7 +154,24 @@ h1,h2,h3,h4,h5,h6 {
   margin-top: 32px;
 }
 
+/********************************************** SECTION 2 ***********************************************/
 
+#div_parcours{
+  padding: 2em;
+  text-align: center;
+  padding-top: 173px;
+  
+}
+
+#parcours hr{
+width: 82px;
+margin-top: 32px;
+}
+
+#cv{
+  text-align: justify;
+  
+}
 /*---------------------------------------
    Portfolio section              
 -----------------------------------------*/
@@ -261,7 +278,7 @@ h1:hover:after {
    Contact section              
 -----------------------------------------*/
 #contact{
-  padding-top: 200px;
+  padding-top: 253px;
 }
 
 #contact .col-md-6,

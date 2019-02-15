@@ -9,11 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     
     <title>Bilel Hamimed | Développeur Web Junior</title>
-
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
     <!-- Custom styles for this template -->
     <link href="style_accueil.css" rel="stylesheet">
 </head>
@@ -21,15 +21,15 @@
 <body>
 
 <!-------------------------------------------PRELOADER---------------------------------------->
-<!-----<div class="preloader">
+<div class="preloader">
      <div class="sk-spinner sk-spinner-wordpress">
           <span class="sk-inner-circle"></span>
      </div>
-</div>-->
+</div>
 
 <!--------------------------------------------------MENU NAV--------------------------------->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="#"><img src="images/logo_bh.png"></a>
+        <a class="navbar-brand" href="accueil.php"><img src="images/logo_bh.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -78,7 +78,8 @@
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
                                              <h3>Mery Christmas</h3>
-                                             <small>Brand Identity</small>
+                                             <small>Carte de voeux</small>
+                                             <small>HTML/CSS/SVG</small>
                                         </div>
                                    </div>
                          </div>
@@ -92,7 +93,8 @@
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
                                              <h3>Pharma net</h3>
-                                             <small>Web Development</small>
+                                             <small>Utilisation d'une API</small>
+                                             <small>HTML/CSS/PHP/API</small>
                                         </div>
                                    </div>
                          </div>
@@ -106,7 +108,8 @@
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
                                              <h3>Uploadit</h3>
-                                             <small>Mobile App</small>
+                                             <small>Upload de fichier</small>
+                                             <small>HTML/CSS/PHP/JavaScript</small>
                                         </div>
                                    </div>
                          </div>
@@ -119,8 +122,9 @@
                               <img src="images/space.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
-                                             <h3>Project Name</h3>
-                                             <small>Logo Design</small>
+                                             <h3>Space Invaders</h3>
+                                             <small>Jeux Space Invaders</small>
+                                             <small>HTML/CSS/JavaScript</small>
                                         </div>
                                    </div>
                          </div>
@@ -147,8 +151,9 @@
                               <img src="images/memes.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
                                         <div class="portfolio-item">
-                                             <h3>Générateur Meme</h3>
-                                             <small>Fyler Design</small>
+                                             <h3>Ralteh</h3>
+                                             <small>Générateur de meme</small>
+                                             <small>HTML/CSS/PHP/JavaScript</small>
                                         </div>
                                    </div>
                          </div>
@@ -179,13 +184,12 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <!--<script src="js/jquery.js"></script>
-    <script src="js/custom.js"></script>-->
+     <script src="js/custom.js"></script>
 </body>
 
 </html>
