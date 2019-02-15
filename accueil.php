@@ -29,7 +29,7 @@
 
 <!--------------------------------------------------MENU NAV--------------------------------->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="accueil.php"><img src="images/logo_bh.png"></a>
+        <a class="navbar-brand" href="#presentation"><img src="images/logo_bh.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,28 +51,30 @@
     </nav>
 
 <section id="presentation">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h1>PRÉSENTATION</h1><br>
-                            <p>Après plusieurs années à travailler dans différents domaines,<br> j'ai décidé de me
-                            reconvertir dans
-                            le
-                            développement web.<br> Je suis actuellement en formation de développeur web à l’ACCESS
-                            CODE SCHOOL<br>
-                            j'ai réalisé différents projets, en HTML, CSS, JavaScript et PHP.
-                            </p>
-                            <hr>
-                    </div>
-                </div>
-            </div>
+     <div class="container">
+          <div class="row">
+               <div class="col">
+                    <h1>PRÉSENTATION</h1><br>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col">
+                    <p>Après plusieurs années à travailler dans différents domaines,<br> j'ai décidé de me
+                    reconvertir dans
+                    le développement web.<br> Je suis actuellement en formation de développeur web à l’ACCESS
+                    CODE SCHOOL<br>j'ai réalisé différents projets, en HTML, CSS, JavaScript et PHP.</p>
+                    <hr>
+               </div>
+          </div>
+                
+     </div>
 </section>
 
 <section id="portfolio">
         <div class="container">
           <div class="row">
                <div class="col-md-4 col-sm-6">
-                    <a href="single-project.html">
+                    <a href="https://bilelh.promo-24.codeur.online/carte_voeux/">
                          <div class="portfolio-thumb">
                               <img src="images/Christmas.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
@@ -87,7 +89,7 @@
                </div>
 
                <div class="col-md-4 col-sm-6">
-                    <a href="single-project.html">
+                    <a href="https://bilelh.promo-24.codeur.online/pharma_net/">
                          <div class="portfolio-thumb">
                               <img src="images/pharma.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
@@ -102,7 +104,7 @@
                </div>
 
                <div class="col-md-4 col-sm-6">
-                    <a href="single-project.html">
+                    <a href="https://bilelh.promo-24.codeur.online/UploadIt/">
                          <div class="portfolio-thumb">
                               <img src="images/uploit.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
@@ -117,7 +119,7 @@
                </div>
 
                <div class="col-md-4 col-sm-6">
-                    <a href="single-project.html">
+                    <a href="https://bilelh.promo-24.codeur.online/Space-Invaders/">
                          <div class="portfolio-thumb">
                               <img src="images/space.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
@@ -146,7 +148,7 @@
                </div>
 
                <div class="col-md-4 col-sm-6">
-                    <a href="single-project.html">
+                    <a href="https://bilelh.promo-24.codeur.online/raleth/">
                          <div class="portfolio-thumb">
                               <img src="images/memes.png" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
